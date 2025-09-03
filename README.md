@@ -14,7 +14,6 @@
 - **Redux Toolkit** + **RTK Query** — состояние и API
 - **Axios** — HTTP-клиент (единый инстанс)
 - **CSS** — без фреймворков (чистый CSS)
-- **GitHub Pages** — деплой
 
 ---
 
