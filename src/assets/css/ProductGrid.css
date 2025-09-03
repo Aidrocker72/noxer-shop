@@ -1,0 +1,16 @@
+.product-grid {
+  background: rgba(241, 241, 241, 1);
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .products-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+}

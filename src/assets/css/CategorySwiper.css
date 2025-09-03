@@ -1,0 +1,47 @@
+.category-swiper {
+  padding: 10px 0;
+}
+
+.swiper-container {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 0;
+  scrollbar-width: none;
+}
+
+.swiper-container::-webkit-scrollbar {
+  display: none;
+}
+
+.category-card {
+  min-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  border: none;
+}
+
+.category-card > p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.category-img {
+  width: 79px;
+  height: 79px;
+  border-radius: 16px;
+  margin: 0 auto 6px;
+  background-color: #f0f0f0;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #ddd;
+}

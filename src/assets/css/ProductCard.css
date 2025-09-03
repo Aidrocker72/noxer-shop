@@ -1,0 +1,117 @@
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: #fff;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #f8f8f8;
+  padding-inline: 2px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-marks {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mark {
+  font-size: 10px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.mark.sale { background: #ff3b30; }
+.mark.new { background: #007aff; }
+.mark.hit { background: #ff9500; }
+.mark.discount { background: #ffcc00; color: #000; }
+.mark.premium { background: #6a4fff; }
+
+.price-block {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0;
+  padding-inline: 5px;
+}
+
+.old-price {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: line-through;
+  color: rgba(41, 41, 40, 0.3);
+}
+
+.new-price {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+.product-name {
+  padding-inline: 5px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 114.99999999999999%;
+  color: rgba(41, 41, 40, 1);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-action {
+  padding-inline: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-outline {
+  background: rgba(241, 241, 241, 1);
+  color: #000;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 13px;
+  line-height: 114.99999999999999%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-outline:hover {
+  border-color: #000;
+  background: #f9f9f9;
+}

@@ -1,0 +1,22 @@
+.promo-section {
+  height: 120px;
+  margin: 16px 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.promo-content h3 {
+  font-size: 18px;
+  margin: 0 0 4px 0;
+}
+
+.promo-content p {
+  font-size: 13px;
+  opacity: 0.9;
+  margin: 0;
+}
