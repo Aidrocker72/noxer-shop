@@ -67,7 +67,6 @@ const ProductGrid = () => {
     );
 
     const current = sentinelRef.current;
-    console.log(current)
     if (current) observer.observe(current);
 
     return () => {
